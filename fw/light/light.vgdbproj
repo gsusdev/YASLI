@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+<VisualGDBProjectSettings2 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Project xsi:type="com.visualgdb.project.external.arduino">
+    <CustomSourceDirectories>
+      <Directories />
+      <PathStyle>Unknown</PathStyle>
+    </CustomSourceDirectories>
+    <AutoProgramSPIFFSPartition>true</AutoProgramSPIFFSPartition>
+    <ProjectModeSettings>
+      <ProjectGUID>21322bc5-1ff4-43f3-b738-ff6c968e0db3</ProjectGUID>
+      <GroupSourcesByTypes>true</GroupSourcesByTypes>
+      <GroupSourcesByPaths>true</GroupSourcesByPaths>
+      <SketchSubdirectory>sketches</SketchSubdirectory>
+      <MainSketchFile>light.ino</MainSketchFile>
+      <RootSketchFolder>
+        <Subfolders />
+        <Files>
+          <string>light.ino</string>
+        </Files>
+      </RootSketchFolder>
+      <OtherFiles>
+        <string>sketches\action_manager.h</string>
+        <string>sketches\channels.h</string>
+        <string>sketches\channels_reader.h</string>
+        <string>sketches\default_settings.h</string>
+        <string>sketches\ESP32SSDP.h</string>
+        <string>sketches\ESP8266FtpServer.h</string>
+        <string>sketches\event_detector.h</string>
+        <string>sketches\http_control.h</string>
+        <string>sketches\IniFile.h</string>
+        <string>sketches\input_filter_ac.h</string>
+        <string>sketches\inputs.h</string>
+        <string>sketches\jm_PCF8574.h</string>
+        <string>sketches\light_controller.h</string>
+        <string>sketches\log_utils.h</string>
+        <string>sketches\log_writer.h</string>
+        <string>sketches\logger.h</string>
+        <string>sketches\main_stuff.h</string>
+        <string>sketches\mqtt_control.h</string>
+        <string>sketches\outputs.h</string>
+        <string>sketches\rule_parser_text.h</string>
+        <string>sketches\rules_reader.h</string>
+        <string>sketches\settings_base.h</string>
+        <string>sketches\settings_ftp.h</string>
+        <string>sketches\settings_mqtt.h</string>
+        <string>sketches\settings_network.h</string>
+        <string>sketches\settings_reader_ini.h</string>
+        <string>sketches\settings_wifi.h</string>
+        <string>sketches\standard_resolvers.h</string>
+        <string>sketches\string_utils.h</string>
+        <string>sketches\stringToNumber.h</string>
+        <string>sketches\types.h</string>
+        <string>sketches\utils.h</string>
+      </OtherFiles>
+    </ProjectModeSettings>
+  </Project>
+  <Build xsi:type="com.visualgdb.build.external.arduino">
+    <BuildLogMode xsi:nil="true" />
+    <AdditionalLibraryDirectories>
+      <string>G:\gsus\Sync\Personal\LightController\SimpleCombo\Firmware\active\arduino\libs</string>
+    </AdditionalLibraryDirectories>
+    <IgnoreNormalLibraryDirectories>false</IgnoreNormalLibraryDirectories>
+    <OutputSubdirectory>Output\$(PlatformName.defuse)\$(ConfigurationName.defuse)</OutputSubdirectory>
+    <EnableVerboseBuild>false</EnableVerboseBuild>
+    <PreprocessorMacros />
+    <AutoBuildSPIFFSPartition>true</AutoBuildSPIFFSPartition>
+  </Build>
+  <CustomBuild>
+    <PreSyncActions />
+    <PreBuildActions />
+    <PostBuildActions />
+    <PreCleanActions />
+    <PostCleanActions />
+  </CustomBuild>
+  <CustomDebug>
+    <PreDebugActions />
+    <PostDebugActions />
+    <DebugStopActions />
+    <BreakMode>Default</BreakMode>
+  </CustomDebug>
+  <CustomShortcuts>
+    <Shortcuts />
+    <ShowMessageAfterExecuting>true</ShowMessageAfterExecuting>
+  </CustomShortcuts>
+  <UserDefinedVariables />
+  <ImportedPropertySheets />
+  <CodeSense>
+    <Enabled>Unknown</Enabled>
+    <ExtraSettings>
+      <HideErrorsInSystemHeaders>true</HideErrorsInSystemHeaders>
+      <SupportLightweightReferenceAnalysis>true</SupportLightweightReferenceAnalysis>
+      <CheckForClangFormatFiles>true</CheckForClangFormatFiles>
+      <FormattingEngine xsi:nil="true" />
+    </ExtraSettings>
+    <CodeAnalyzerSettings>
+      <Enabled>false</Enabled>
+    </CodeAnalyzerSettings>
+  </CodeSense>
+  <Configurations>
+    <VisualGDBConfiguration>
+      <PlatformName>Arduino_Nano_ESP32</PlatformName>
+      <DebugSettingsOverride xsi:type="com.visualgdb.debug.embedded">
+        <AdditionalStartupCommands />
+        <AdditionalGDBSettings>
+          <Features>
+            <DisableAutoDetection>false</DisableAutoDetection>
+            <UseFrameParameter>false</UseFrameParameter>
+            <SimpleValuesFlagSupported>false</SimpleValuesFlagSupported>
+            <ListLocalsSupported>false</ListLocalsSupported>
+            <ByteLevelMemoryCommandsAvailable>false</ByteLevelMemoryCommandsAvailable>
+            <ThreadInfoSupported>false</ThreadInfoSupported>
+            <PendingBreakpointsSupported>false</PendingBreakpointsSupported>
+            <SupportTargetCommand>false</SupportTargetCommand>
+            <ReliableBreakpointNotifications>false</ReliableBreakpointNotifications>
+          </Features>
+          <EnableSmartStepping>false</EnableSmartStepping>
+          <FilterSpuriousStoppedNotifications>false</FilterSpuriousStoppedNotifications>
+          <ForceSingleThreadedMode>false</ForceSingleThreadedMode>
+          <UseAppleExtensions>false</UseAppleExtensions>
+          <CanAcceptCommandsWhileRunning>false</CanAcceptCommandsWhileRunning>
+          <MakeLogFile>false</MakeLogFile>
+          <IgnoreModuleEventsWhileStepping>true</IgnoreModuleEventsWhileStepping>
+          <UseRelativePathsOnly>false</UseRelativePathsOnly>
+          <ExitAction>None</ExitAction>
+          <DisableDisassembly>false</DisableDisassembly>
+          <ExamineMemoryWithXCommand>false</ExamineMemoryWithXCommand>
+          <StepIntoNewInstanceEntry>main</StepIntoNewInstanceEntry>
+          <ExamineRegistersInRawFormat>true</ExamineRegistersInRawFormat>
+          <DisableSignals>false</DisableSignals>
+          <EnableAsyncExecutionMode>false</EnableAsyncExecutionMode>
+          <AsyncModeSupportsBreakpoints>true</AsyncModeSupportsBreakpoints>
+          <TemporaryBreakConsolidationTimeout>0</TemporaryBreakConsolidationTimeout>
+          <EnableNonStopMode>false</EnableNonStopMode>
+          <MaxBreakpointLimit>0</MaxBreakpointLimit>
+          <EnableVerboseMode>true</EnableVerboseMode>
+          <EnablePrettyPrinters>false</EnablePrettyPrinters>
+        </AdditionalGDBSettings>
+        <DebugMethod>
+          <ID>openocd</ID>
+          <Configuration xsi:type="com.visualgdb.edp.openocd.settings.esp32">
+            <CommandLine>-f interface/jlink.cfg -c "adapter_khz 3000" -f target/esp32.cfg</CommandLine>
+            <ExtraParameters>
+              <Frequency xsi:nil="true" />
+              <BoostedFrequency xsi:nil="true" />
+              <ConnectUnderReset>false</ConnectUnderReset>
+            </ExtraParameters>
+            <LoadProgressGUIThreshold>131072</LoadProgressGUIThreshold>
+            <ProgramMode>Enabled</ProgramMode>
+            <StartupCommands>
+              <string>set remotetimeout 60</string>
+              <string>target remote :$$SYS:GDB_PORT$$</string>
+              <string>mon gdb_breakpoint_override hard</string>
+              <string>mon reset halt</string>
+              <string>load</string>
+            </StartupCommands>
+            <ProgramFLASHUsingExternalTool>false</ProgramFLASHUsingExternalTool>
+            <PreferredGDBPort>0</PreferredGDBPort>
+            <PreferredTelnetPort>0</PreferredTelnetPort>
+            <AlwaysPassSerialNumber>false</AlwaysPassSerialNumber>
+            <SelectedCoreIndex xsi:nil="true" />
+            <LiveMemoryTimeout>5000</LiveMemoryTimeout>
+            <SuggestionLogicRevision>1</SuggestionLogicRevision>
+            <CheckFLASHSize>true</CheckFLASHSize>
+            <FLASHSettings>
+              <Size>size4MB</Size>
+              <Frequency>freq40M</Frequency>
+              <Mode>DIO</Mode>
+            </FLASHSettings>
+            <PatchBootloader>true</PatchBootloader>
+          </Configuration>
+        </DebugMethod>
+        <AutoDetectRTOS>true</AutoDetectRTOS>
+        <SemihostingSupport>Auto</SemihostingSupport>
+        <SemihostingPollingDelay>0</SemihostingPollingDelay>
+        <StepIntoEntryPoint>false</StepIntoEntryPoint>
+        <ReloadFirmwareOnReset>false</ReloadFirmwareOnReset>
+        <ValidateEndOfStackAddress>true</ValidateEndOfStackAddress>
+        <StopAtEntryPoint>false</StopAtEntryPoint>
+        <EnableVirtualHalts>false</EnableVirtualHalts>
+        <DynamicAnalysisSettings />
+        <EndOfStackSymbol>_estack</EndOfStackSymbol>
+        <TimestampProviderTicksPerSecond>0</TimestampProviderTicksPerSecond>
+        <KeepConsoleAfterExit>false</KeepConsoleAfterExit>
+        <UnusedStackFillPattern xsi:nil="true" />
+        <CheckInterfaceDrivers>true</CheckInterfaceDrivers>
+      </DebugSettingsOverride>
+      <BuildSettingsExtension xsi:type="com.visualgdb.build.external.arduino.extension">
+        <BoardID>arduino:esp32:nano_nora</BoardID>
+        <Properties>
+          <Entries />
+        </Properties>
+        <DebugUnoptimizedComponentTypes>Sketch</DebugUnoptimizedComponentTypes>
+      </BuildSettingsExtension>
+    </VisualGDBConfiguration>
+  </Configurations>
+  <ProgramArgumentsSuggestions />
+</VisualGDBProjectSettings2>

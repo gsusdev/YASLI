@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{803FD0C6-D64E-4E16-9DC3-1DAEC859A3D2}") = "light", "light.vgdbproj", "{21322BC5-1FF4-43F3-B738-FF6C968E0DB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Arduino_Nano_ESP32 = Debug|Arduino_Nano_ESP32
+		Release|Arduino_Nano_ESP32 = Release|Arduino_Nano_ESP32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21322BC5-1FF4-43F3-B738-FF6C968E0DB3}.Debug|Arduino_Nano_ESP32.ActiveCfg = Debug|Arduino_Nano_ESP32
+		{21322BC5-1FF4-43F3-B738-FF6C968E0DB3}.Debug|Arduino_Nano_ESP32.Build.0 = Debug|Arduino_Nano_ESP32
+		{21322BC5-1FF4-43F3-B738-FF6C968E0DB3}.Release|Arduino_Nano_ESP32.ActiveCfg = Release|Arduino_Nano_ESP32
+		{21322BC5-1FF4-43F3-B738-FF6C968E0DB3}.Release|Arduino_Nano_ESP32.Build.0 = Release|Arduino_Nano_ESP32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {502AD9A6-C272-4157-A829-DAAC6CCFCB15}
+	EndGlobalSection
+EndGlobal
